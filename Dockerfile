@@ -1,7 +1,7 @@
 ARG BASE_CONTAINER=jupyter/datascience-notebook
 FROM $BASE_CONTAINER
 
-LABEL maintainer="Shanti Naik <visitsb@gmail.com>"
+LABEL maintainer="Eloy Prieto <@gmail.com>"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
